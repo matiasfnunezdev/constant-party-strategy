@@ -188,13 +188,18 @@ h1{margin:0 0 8px;font-size:clamp(27px,2.4vw,37px);line-height:1.05;font-weight:
   .grid{grid-template-columns:1fr 1fr}
   .bottom{grid-template-columns:1fr 1fr}
   .facing-body{grid-template-columns:minmax(200px,260px) minmax(0,1fr)}
+  .support-body{grid-template-columns:1fr 1fr}
+  .scol:nth-child(2){border-right:0}
+  .scol:nth-child(-n+2){border-bottom:1px solid var(--line-soft)}
 }
 @media(max-width:760px){
   body{padding:12px}
   .grid,.bottom{grid-template-columns:1fr}
-  .card-body,.facing-body{grid-template-columns:1fr}
+  .card-body,.facing-body,.support-body{grid-template-columns:1fr}
   .diagram{min-height:280px;border-right:0;border-bottom:1px solid var(--line-soft)}
   .facing-diagram{border-right:0;border-bottom:1px solid var(--line-soft)}
+  .scol{border-right:0;border-bottom:1px solid var(--line-soft)}
+  .scol:last-child{border-bottom:0}
   .seq{flex-wrap:wrap}
 }
 @media print{
