@@ -103,6 +103,49 @@ h1{margin:0 0 8px;font-size:clamp(27px,2.4vw,37px);line-height:1.05;font-weight:
   border-top:1px solid var(--line-soft);padding-top:10px}
 .facing-foot b{color:var(--text-2);font-weight:900}
 
+.support{margin-top:16px;border-color:var(--cyan)}
+.support-head{min-height:44px;display:flex;align-items:center;justify-content:center;gap:10px;
+  padding:9px 14px;background:var(--surface-2);border-bottom:1px solid var(--line-soft);
+  font-size:14.5px;font-weight:900;letter-spacing:.2px}
+.support-head .chip{color:var(--cyan)}
+.support-body{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.scol{padding:14px 16px;border-right:1px solid var(--line-soft);min-width:0}
+.scol:last-child{border-right:0}
+.scol h4{margin:0 0 11px;font-size:12px;font-weight:900;letter-spacing:.7px;color:var(--cyan)}
+.calls{width:100%;border-collapse:collapse;font-size:12px;margin-bottom:12px}
+.calls tr{border-bottom:1px solid var(--line-soft)}
+.calls tr:last-child{border-bottom:0}
+.calls td{padding:6px 0;vertical-align:baseline;color:var(--text-2);font-weight:600;line-height:1.3}
+.calls td:first-child{width:82px;padding-right:10px;font-weight:900;color:var(--yellow);
+  font-size:11.5px;letter-spacing:.5px;white-space:nowrap}
+.lvl{margin-bottom:12px;padding-left:12px;border-left:2px solid var(--c)}
+.lvl:last-child{margin-bottom:0}
+.lvl b{display:block;font-size:11.5px;font-weight:900;letter-spacing:.5px;color:var(--c);margin-bottom:4px}
+.lvl p{margin:0;font-size:12px;line-height:1.35;color:var(--text-2);font-weight:600}
+.lvl p em{font-style:normal;color:var(--text);font-weight:900}
+.guard{width:100%;border-collapse:collapse;font-size:11.5px;margin-top:4px}
+.guard th{text-align:left;padding:0 8px 5px 0;font-size:9.5px;letter-spacing:.6px;
+  color:var(--muted);font-weight:900;border-bottom:1px solid var(--line-soft)}
+.guard td{padding:6px 8px 6px 0;border-bottom:1px solid var(--line-soft);
+  color:var(--text-2);font-weight:700;line-height:1.25}
+.guard tr:last-child td{border-bottom:0}
+.guard td:first-child{color:var(--text);font-weight:900}
+.spara{font-size:12px;line-height:1.4;color:var(--text-2);font-weight:600;margin:0 0 10px}
+.spara:last-child{margin-bottom:0}
+.spara b{color:var(--text);font-weight:900}
+.spara em{font-style:normal;color:var(--yellow);font-weight:900}
+.tell{margin:10px 0;padding:9px 11px;background:var(--surface-2);border-radius:7px;
+  font-size:11.5px;line-height:1.35;color:var(--text-2);font-weight:650}
+.tell b{color:var(--cyan);font-weight:900}
+.trade{margin-top:10px;padding:10px 12px;border:1px solid var(--yellow);border-radius:7px;
+  font-size:11.5px;line-height:1.4;color:var(--text-2);font-weight:700}
+.trade b{color:var(--yellow);font-weight:900}
+.antipattern{display:flex;align-items:center;gap:12px;padding:12px 16px;
+  border-top:1px solid var(--red);background:rgba(255,104,104,.07)}
+.antipattern .x{color:var(--red);font-size:20px;font-weight:900;line-height:1;flex:none}
+.antipattern p{margin:0;font-size:12.5px;line-height:1.4;color:var(--text-2);font-weight:650}
+.antipattern p b{color:var(--red);font-weight:900}
+
 .bottom{display:grid;grid-template-columns:1.02fr .92fr 1.24fr .86fr;gap:16px;margin-top:16px}
 .bottom-card{display:flex;flex-direction:column}
 .bottom-head{min-height:42px;display:flex;align-items:center;justify-content:center;
@@ -176,7 +219,7 @@ h1{margin:0 0 8px;font-size:clamp(27px,2.4vw,37px);line-height:1.05;font-weight:
     <span><b style="color:#bf86e5">⇢</b> Salida — siempre una sola</span>
     <span><b style="color:#f1a83a">↻</b> Giro / rotación</span>
   </div>
-  <div class="version"><b>v2.1</b><i>·</i>03 SEP 2026<i>·</i>LU4 CARMINE</div>
+  <div class="version"><b>v2.2</b><i>·</i>03 SEP 2026<i>·</i>LU4 CARMINE</div>
 </header>
 
 <section class="grid">
@@ -502,13 +545,13 @@ h1{margin:0 0 8px;font-size:clamp(27px,2.4vw,37px);line-height:1.05;font-weight:
 </div>
 <div class="notes">
 <div class="note key"><span class="num">1</span>La amenaza viene de atrás, no del frente.</div>
-<div class="note key"><span class="num">2</span>PL, WL y GL giran y vuelven. Sin discutir.</div>
-<div class="note"><span class="num">3</span>WL interrumpe con control.</div>
-<div class="note"><span class="num">4</span>GL + BD eliminan la amenaza rápido.</div>
-<div class="note"><span class="num">5</span>BH corta las infiltraciones que siguen.</div>
+<div class="note key"><span class="num">2</span>Guardián primero: BH al BP, BD al SE.</div>
+<div class="note"><span class="num">3</span>El soporte canta FOCUS y se mueve.</div>
+<div class="note"><span class="num">4</span>Si no alcanza, el PL rompe contacto y vuelve.</div>
+<div class="note"><span class="num">5</span>WL interrumpe, GL elimina rápido.</div>
 <div class="note"><span class="num">6</span>TH castiga por la espalda del infiltrado.</div>
 <div class="note"><span class="num">7</span>OL debuffea para bajarles el daño.</div>
-<div class="note key"><span class="num">8</span>Nunca se abandona al soporte. Nunca.</div>
+<div class="note key"><span class="num">8</span>No se amontonan todos: el frente no se regala.</div>
 </div>
 </div>
 <div class="objective"><b>OBJETIVO</b>Mantener vivo al soporte: sin BP no hay CP.</div>
@@ -553,6 +596,70 @@ h1{margin:0 0 8px;font-size:clamp(27px,2.4vw,37px);line-height:1.05;font-weight:
   <div class="frow"><b style="color:#4aa7e8">BACKSTAB</b><span><em>3%</em> de éxito desde el hemisferio de adelante. <em>100%</em> desde el de atrás. Para el TH no es una mejora: es la diferencia entre hacer algo y no hacer nada.</span></div>
   <div class="facing-foot">Los cuadrantes son de 90° y se miden desde donde <b>mira</b> el enemigo, no desde donde está parado: si gira, el bonus se va. Por eso el PL fija de frente, para que no gire. Y ojo: <b>Aegis</b> y <b>Aegis Stance</b> le devuelven el bloqueo de escudo en los 360°.</div>
 </div>
+</div>
+</section>
+
+<section class="support">
+<div class="support-head"><span class="chip">PROTOCOLO</span>GUERRA DE SOPORTE — BP · SE · OL</div>
+<div class="support-body">
+
+<div class="scol">
+<h4>LAS CALLS</h4>
+<p class="spara">Una sola gramática: <b>ESTADO + CLASE</b>. Tres estados, nada más.</p>
+<table class="calls">
+<tr><td>FOCUS BP</td><td>me están pegando a mí</td></tr>
+<tr><td>LOCK BP</td><td>stuneado, holdeado o silenciado: no puedo hacer nada</td></tr>
+<tr><td>LIBRE BP</td><td>salí, ya estoy operativo</td></tr>
+</table>
+<p class="spara"><b>Stuneado se habla igual.</b> El stun te traba el personaje, no la boca. Si no podés actuar, más razón para cantarlo.</p>
+<p class="spara"><b>Si el soporte no canta, la barra lo canta.</b> La ventana de party muestra la vida de todos: cualquiera puede ver que el BP está bajando. <em>No esperes la call.</em></p>
+<p class="spara"><b>El soporte reporta estado, no da órdenes.</b> Un healer con tres tipos encima no está para decidir qué hace la CP. Reporta y se mueve; decide el PL.</p>
+<p class="spara"><b><em>LIBRE</em> es obligatorio.</b> Sin el aviso de salida la CP sigue en modo emergencia y pierde un fight que ya tenía ganado.</p>
+</div>
+
+<div class="scol">
+<h4>CUANDO NOS FOCUSEAN</h4>
+<div class="lvl" style="--c:#f4d66b">
+<b>NIVEL 1 · FOCUS</b>
+<p>Le pegan pero se sostiene. El soporte <em>se mueve primero</em>: corta línea de visión y se mete detrás del BD o del PL. <em>Solo el guardián corta.</em> El resto no cambia nada. Si el que pega es ranged, no se persigue: se rompe la visión.</p>
+</div>
+<div class="lvl" style="--c:#f1a83a">
+<b>NIVEL 2 · LOCK, O LA VIDA SIGUE BAJANDO</b>
+<p><em>El PL rompe contacto y vuelve</em> — es lo único que corta un focus decidido. WL mete control sobre el que pega. El otro soporte lo levanta. Si el BP está <em>silenciado no hay heals</em>: si alguien puede limpiarlo lo limpia, y si no, esto ya es nivel 3.</p>
+</div>
+<div class="lvl" style="--c:#ff6868">
+<b>NIVEL 3 · EL SOPORTE CAE</b>
+<p>Ya no es peel, es <em>salida</em>. Se canta <em>SALE</em> y se va por un solo lado. <em>Nadie resucita dentro del foco</em>: se resucita afuera, después del reset. Un BP muerto es una CP que dejó de existir como unidad.</p>
+</div>
+<table class="guard">
+<tr><th>SOPORTE</th><th>GUARDIÁN</th><th>REFUERZO</th></tr>
+<tr><td>BP</td><td>BH</td><td>PL</td></tr>
+<tr><td>SE</td><td>BD</td><td>BH</td></tr>
+<tr><td>OL</td><td>se cuida solo: tira y retrocede</td><td>GL</td></tr>
+</table>
+</div>
+
+<div class="scol">
+<h4>CUANDO FOCUSEAMOS NOSOTROS</h4>
+<p class="spara">Ellos buscan exactamente lo mismo que nosotros. Lo primero es leer <b>si están ordenados o no</b>.</p>
+<div class="tell">
+<b>LA SEÑAL:</b> dónde está su soporte respecto de su melee.<br>
+Detrás de la línea → <b>ordenados</b>, tienen peel.<br>
+Al costado, adelante o suelto → <b>desordenados</b>. Es lo más común.
+</div>
+<p class="spara"><b>Desordenados:</b> el TH va directo al BP. Es el kill más barato que existe.</p>
+<p class="spara"><b>Ordenados:</b> al BP no llegás de frente. <em>Matá al SE.</em> Está menos protegido, y sin su recharge el BP se queda sin MP y deja de curar solo. Es matar al healer sin tocarlo.</p>
+<p class="spara"><b>El TH reporta, el PL decide.</b> El TH es el único que ve la backline enemiga, pero el target lo canta uno solo.</p>
+<div class="trade">
+<b>LA REGLA DEL INTERCAMBIO</b><br>
+Cortás el focus para salvar a tu soporte, <b>salvo que el suyo esté por caer</b>. Un intercambio de BP por BP lo gana la CP con mejor peel: un kill al 20% no vale tu Bishop, uno al 80% sí.
+</div>
+</div>
+
+</div>
+<div class="antipattern">
+<span class="x">✕</span>
+<p><b>NO se amontonan todos encima del soporte focuseado.</b> Convierte una muerte en cinco: junta a la CP en un punto para el AoE enemigo y regala el frente que estábamos ganando. Corta el guardián; el resto sigue peleando.</p>
 </div>
 </section>
 
@@ -619,6 +726,8 @@ h1{margin:0 0 8px;font-size:clamp(27px,2.4vw,37px);line-height:1.05;font-weight:
 <div class="rule"><span class="check">✓</span>No perseguir ranged aislado.</div>
 <div class="rule"><span class="check">✓</span>AoE solo si no hay aliados de otro clan pegados.</div>
 <div class="rule"><span class="check">✓</span>BP / SE no se exponen jamás.</div>
+<div class="rule"><span class="check">✓</span><b>Corta el guardián, no toda la CP.</b></div>
+<div class="rule"><span class="check">✓</span>El soporte reporta estado, no da órdenes.</div>
 <div class="rule"><span class="check">✓</span><b>Supervivencia antes que kill:</b> sin Noblesse, morir cuesta todos los buffs.</div>
 <div class="rule"><span class="check">✓</span>Rush después del breakthrough, nunca antes.</div>
 </div></div>
@@ -626,7 +735,7 @@ h1{margin:0 0 8px;font-size:clamp(27px,2.4vw,37px);line-height:1.05;font-weight:
 
 <div class="footer">
 DOCTRINA: CONTACTO CONTROLADO → SUPERIORIDAD LOCAL → BREAKTHROUGH → BREAKOUT → REFORM
-<br><span>v2.1 · 03 sep 2026 · Lu4 · Carmine · CP melee de 9 · historial de versiones en CHANGELOG.md</span>
+<br><span>v2.2 · 03 sep 2026 · Lu4 · Carmine · CP melee de 9 · historial de versiones en CHANGELOG.md</span>
 </div>
 </main>
 </body>

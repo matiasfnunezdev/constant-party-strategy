@@ -4,6 +4,36 @@ La versión que está publicada se ve arriba de todo en la página y en el pie.
 
 ---
 
+## v2.2 — 3 de septiembre de 2026
+
+**Banda nueva: GUERRA DE SOPORTE (BP · SE · OL).** El playbook decía qué hacer cuando
+el soporte está en peligro, pero no cómo se avisa, quién responde ni hasta dónde.
+
+- **Gramática de calls: `ESTADO + CLASE`.** Tres estados y nada más — `FOCUS`, `LOCK`
+  y `LIBRE`. Con dos reglas que importan: **stuneado se habla igual** (el stun traba
+  al personaje, no a la boca) y **si el soporte no canta, la barra de vida lo canta**,
+  así que nadie espera la call para reaccionar.
+- **El soporte reporta estado, no da órdenes.** Un healer con tres encima no está para
+  decidir qué hace la CP.
+- **Escalada de tres niveles** con disparador y respuesta: FOCUS (se mueve el soporte,
+  corta solo el guardián), LOCK o vida bajando (el PL rompe contacto y vuelve),
+  y caída (ya no es peel, es salida; nadie resucita dentro del foco).
+- **Guardianes asignados de antemano**: BH cuida al BP, BD al SE, y el OL se cuida solo
+  por su propio rol — tira y retrocede.
+- **El lado ofensivo**: contra una CP **desordenada**, el TH va directo al BP; contra
+  una **ordenada** se mata al SE, porque sin su recharge el BP se queda sin MP y deja
+  de curar solo. La señal para distinguirlas es dónde está su soporte respecto de su
+  melee.
+- **Regla del intercambio**: cortás el focus para salvar a tu soporte salvo que el suyo
+  esté por caer. Un kill al 20% no vale tu Bishop; uno al 80% sí.
+
+**Corrección importante.** El escenario 6 decía *"todos protegen BP / SE"*. Eso es el
+anti-patrón: amontonarse convierte una muerte en cinco, junta a la CP para el AoE
+enemigo y regala el frente. Ahora dice **corta el guardián y el resto sigue peleando**,
+y la banda lo remata con una franja roja.
+
+---
+
 ## v2.1 — 3 de septiembre de 2026
 
 **Escenario 4 (arqueros vs magos): las clases, no puntos grises.**
